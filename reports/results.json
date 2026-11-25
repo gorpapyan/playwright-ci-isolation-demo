@@ -1,0 +1,48 @@
+{
+  "node": "v23.10.0",
+  "playwright": "1.57.0",
+  "rows": [
+    {
+      "mode": "shared",
+      "run": 1,
+      "passed": 1,
+      "failed": 1,
+      "workers": 2
+    },
+    {
+      "mode": "shared",
+      "run": 2,
+      "passed": 1,
+      "failed": 1,
+      "workers": 2
+    },
+    {
+      "mode": "shared",
+      "run": 3,
+      "passed": 1,
+      "failed": 1,
+      "workers": 2
+    },
+    {
+      "mode": "isolated",
+      "run": 1,
+      "passed": 2,
+      "failed": 0,
+      "workers": 2
+    },
+    {
+      "mode": "isolated",
+      "run": 2,
+      "passed": 2,
+      "failed": 0,
+      "workers": 2
+    },
+    {
+      "mode": "isolated",
+      "run": 3,
+      "passed": 2,
+      "failed": 0,
+      "workers": 2
+    }
+  ]
+}
